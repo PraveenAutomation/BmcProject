@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.exl.qa.testcases.SearchPageTest" duration-ms="14277" started-at="2020-10-07T20:06:34 IST" finished-at="2020-10-07T20:06:48 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="14277" started-at="2020-10-07T20:06:34 IST" finished-at="2020-10-07T20:06:48 IST">
+      <class name="com.exl.qa.testcases.SearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@731a74c]" name="setUp" is-config="true" duration-ms="6514" started-at="2020-10-07T20:06:34 IST" finished-at="2020-10-07T20:06:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchPageTitleTest()[pri:1, instance:com.exl.qa.testcases.SearchPageTest@731a74c]" name="verifySearchPageTitleTest" duration-ms="19" started-at="2020-10-07T20:06:40 IST" finished-at="2020-10-07T20:06:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@731a74c]" name="tearDown" is-config="true" duration-ms="659" started-at="2020-10-07T20:06:40 IST" finished-at="2020-10-07T20:06:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@731a74c]" name="setUp" is-config="true" duration-ms="4972" started-at="2020-10-07T20:06:41 IST" finished-at="2020-10-07T20:06:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEnterTextOnSerchBox()[pri:2, instance:com.exl.qa.testcases.SearchPageTest@731a74c]" name="verifyEnterTextOnSerchBox" duration-ms="1056" started-at="2020-10-07T20:06:46 IST" finished-at="2020-10-07T20:06:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnterTextOnSerchBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@731a74c]" name="tearDown" is-config="true" duration-ms="969" started-at="2020-10-07T20:06:47 IST" finished-at="2020-10-07T20:06:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.exl.qa.testcases.SearchPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.exl.qa.testcases.SearchPageTest -->
+</testng-results>

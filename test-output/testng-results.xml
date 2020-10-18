@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19062" started-at="2020-10-06T21:56:26 IST" finished-at="2020-10-06T21:56:45 IST">
+  <suite name="Suite" duration-ms="15643" started-at="2020-10-18T14:58:32 IST" finished-at="2020-10-18T14:58:47 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19062" started-at="2020-10-06T21:56:26 IST" finished-at="2020-10-06T21:56:45 IST">
+    <test name="Test" duration-ms="15643" started-at="2020-10-18T14:58:32 IST" finished-at="2020-10-18T14:58:47 IST">
       <class name="com.exl.qa.testcases.SearchPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@e320068]" name="setUp" is-config="true" duration-ms="8891" started-at="2020-10-06T21:56:26 IST" finished-at="2020-10-06T21:56:35 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@3e57cd70]" name="setUp" is-config="true" duration-ms="7339" started-at="2020-10-18T14:58:32 IST" finished-at="2020-10-18T14:58:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchPageTitleTest()[pri:1, instance:com.exl.qa.testcases.SearchPageTest@e320068]" name="verifySearchPageTitleTest" duration-ms="53" started-at="2020-10-06T21:56:35 IST" finished-at="2020-10-06T21:56:35 IST">
+        <test-method status="PASS" signature="verifySearchPageTitleTest()[pri:1, instance:com.exl.qa.testcases.SearchPageTest@3e57cd70]" name="verifySearchPageTitleTest" duration-ms="26" started-at="2020-10-18T14:58:39 IST" finished-at="2020-10-18T14:58:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@e320068]" name="tearDown" is-config="true" duration-ms="690" started-at="2020-10-06T21:56:35 IST" finished-at="2020-10-06T21:56:36 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@3e57cd70]" name="tearDown" is-config="true" duration-ms="831" started-at="2020-10-18T14:58:39 IST" finished-at="2020-10-18T14:58:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@e320068]" name="setUp" is-config="true" duration-ms="6908" started-at="2020-10-06T21:56:36 IST" finished-at="2020-10-06T21:56:43 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@3e57cd70]" name="setUp" is-config="true" duration-ms="5495" started-at="2020-10-18T14:58:40 IST" finished-at="2020-10-18T14:58:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyEnterTextOnSerchBox()[pri:2, instance:com.exl.qa.testcases.SearchPageTest@e320068]" name="verifyEnterTextOnSerchBox" duration-ms="1625" started-at="2020-10-06T21:56:43 IST" finished-at="2020-10-06T21:56:44 IST">
+        <test-method status="PASS" signature="verifyEnterTextOnSerchBox()[pri:2, instance:com.exl.qa.testcases.SearchPageTest@3e57cd70]" name="verifyEnterTextOnSerchBox" duration-ms="1071" started-at="2020-10-18T14:58:46 IST" finished-at="2020-10-18T14:58:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEnterTextOnSerchBox -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@e320068]" name="tearDown" is-config="true" duration-ms="805" started-at="2020-10-06T21:56:44 IST" finished-at="2020-10-06T21:56:45 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.exl.qa.testcases.SearchPageTest@3e57cd70]" name="tearDown" is-config="true" duration-ms="792" started-at="2020-10-18T14:58:47 IST" finished-at="2020-10-18T14:58:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
