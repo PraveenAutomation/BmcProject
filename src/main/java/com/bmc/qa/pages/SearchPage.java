@@ -1,8 +1,12 @@
 package com.bmc.qa.pages;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 import com.bmc.qa.base.TestBase;
@@ -11,21 +15,21 @@ import com.bmc.qa.base.TestBase;
 public class SearchPage extends TestBase {
 	
 	// PageFactory - Object Repository :> Page Objects
-	//@FindBy(css="#gs_lc50")
-	//WebElement searchLabel;
+
 	
-	@FindBy(xpath="//*[@id='searchboxinput']")
+	@FindBy(xpath="//input[@title='Search']")
 	WebElement searchLabel;
 	
-/*	@FindBy(css="#searchbox-searchbutton")
-	WebElement searchButton;
-	
-	*/
-	
 
-	@FindBy(xpath="//div/button[@class='searchbox-searchbutton']")
+	@FindBy(xpath="//span[@class='QCzoEc z1asCe MZy1Rb']//*[name()='svg']")
 	@CacheLookup
 	WebElement searchButton;
+	
+
+	@FindBys( {
+		@FindBy(xpath="(//div[@class='eIPGRd'])")
+		} )
+		private List<WebElement> searchCount;;
 	
 	public SearchPage()
 	{
@@ -41,7 +45,7 @@ public class SearchPage extends TestBase {
 		
 		public void enterTextOnSearchLabel()
 		{
-			searchLabel.sendKeys("San Francisco, California");
+			searchLabel.sendKeys("Amazon");
 			searchButton.click();
 		}
 		
@@ -50,14 +54,13 @@ public class SearchPage extends TestBase {
 			searchButton.click();
 		}
 		
-		/*
-		 * public LocationPage login(String un, String pwd) { username.sendKeys(un);
-		 * password.sendKeys(pwd); loginBtn.click();
-		 * 
-		 * return new HomePage();
-		 * 
-		 * }
-		 */
+		public int searchListCount()
+		{
+			int totalCount=searchCount.size();
+			return totalCount;
+		}
+		
+
 	
 
 }

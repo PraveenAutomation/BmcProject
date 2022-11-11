@@ -1,4 +1,4 @@
-package com.bmc.qa.pages;
+package com.bmc.qa.testcases;
 
 import com.bmc.qa.base.TestBase;
 

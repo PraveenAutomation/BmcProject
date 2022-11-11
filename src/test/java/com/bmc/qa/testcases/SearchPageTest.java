@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.bmc.qa.base.TestBase;
-import com.bmc.qa.pages.LocationPage;
+
 import com.bmc.qa.pages.SearchPage;
 import com.bmc.qa.utils.TestUtils;
 
@@ -32,7 +32,7 @@ public class SearchPageTest extends TestBase {
 	@Test(priority = 1)
 	public void verifySearchPageTitleTest() {
 		String searchPageTitle = searchPage.validateSearchPageTitle();
-		Assert.assertEquals(searchPageTitle, "Google Maps");
+		Assert.assertEquals(searchPageTitle, "Google");
 
 	}
 
@@ -41,6 +41,12 @@ public class SearchPageTest extends TestBase {
 		searchPage.enterTextOnSearchLabel();
 		searchPage.clickOnSearchButton();
 
+	}
+	
+	@Test(priority = 3)
+	public void searchList() {
+		int searchCount = searchPage.searchListCount();
+		Assert.assertEquals(searchCount, 11);
 	}
 
 //	@Test
@@ -54,7 +60,10 @@ public class SearchPageTest extends TestBase {
 	  @AfterMethod 
 	  public void tearDown() 
 	  { 
+		  if(driver!=null)
+		  {
 		  driver.quit();
+		  }
 	  }
 
 }
