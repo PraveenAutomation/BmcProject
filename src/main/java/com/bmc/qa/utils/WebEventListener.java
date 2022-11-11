@@ -1,4 +1,4 @@
-package com.exl.qa.utils;
+package com.bmc.qa.utils;
 /*************************************** PURPOSE **********************************
 
  - This class implements the WebDriverEventListener, which is included under events.
@@ -20,7 +20,7 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 
 
 
-public class WebEventListener extends com.exl.qa.base.TestBase implements WebDriverEventListener {
+public class WebEventListener extends com.bmc.qa.base.TestBase implements WebDriverEventListener {
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
 		System.out.println("Before navigating to: '" + url + "'");

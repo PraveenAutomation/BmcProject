@@ -1,4 +1,4 @@
-package com.exl.qa.utils;
+package com.bmc.qa.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 
 
-public class TestUtils extends com.exl.qa.base.TestBase {
+public class TestUtils extends com.bmc.qa.base.TestBase {
 	
 	public static long PAGE_LOAD_TIMEOUT=20;
 	public static long IMPLICIT_WAIT=10;

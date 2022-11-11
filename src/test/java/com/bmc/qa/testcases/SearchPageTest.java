@@ -1,14 +1,14 @@
-package com.exl.qa.testcases;
+package com.bmc.qa.testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.exl.qa.base.TestBase;
-import com.exl.qa.pages.LocationPage;
-import com.exl.qa.pages.SearchPage;
-import com.exl.qa.utils.TestUtils;
+import com.bmc.qa.base.TestBase;
+import com.bmc.qa.pages.LocationPage;
+import com.bmc.qa.pages.SearchPage;
+import com.bmc.qa.utils.TestUtils;
 
 public class SearchPageTest extends TestBase {
 

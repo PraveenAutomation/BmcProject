@@ -1,11 +1,11 @@
-package com.exl.qa.pages;
+package com.bmc.qa.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.exl.qa.base.TestBase;
+import com.bmc.qa.base.TestBase;
 
 
 public class SearchPage extends TestBase {

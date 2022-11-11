@@ -1,4 +1,4 @@
-package com.exl.qa.base;
+package com.bmc.qa.base;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,8 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
-import com.exl.qa.utils.TestUtils;
-import com.exl.qa.utils.WebEventListener;
+import com.bmc.qa.utils.TestUtils;
+import com.bmc.qa.utils.WebEventListener;
 
 
 
