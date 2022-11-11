@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.exl.qa.testcases.SearchPageTest"/>
+      <class name="com.bmc.qa.testcases.SearchPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

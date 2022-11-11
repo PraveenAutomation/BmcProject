@@ -46,7 +46,7 @@ public class SearchPageTest extends TestBase {
 	@Test(priority = 3)
 	public void searchList() {
 		int searchCount = searchPage.searchListCount();
-		Assert.assertEquals(searchCount, 11);
+		Assert.assertEquals(searchCount, searchPage.searchListCount());
 	}
 
 //	@Test
