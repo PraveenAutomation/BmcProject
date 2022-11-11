@@ -6,7 +6,9 @@
       <class name="com.bmc.qa.testcases.SearchPageTest">
         <methods>
           <include name="searchList"/>
+          <include name="verifySearchPageTitleTest"/>
           <include name="setUp"/>
+          <include name="verifyEnterTextOnSerchBox"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.bmc.qa.testcases.SearchPageTest -->

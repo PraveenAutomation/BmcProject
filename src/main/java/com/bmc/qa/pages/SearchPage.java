@@ -29,7 +29,9 @@ public class SearchPage extends TestBase {
 	@FindBys( {
 		@FindBy(xpath="(//div[@class='eIPGRd'])")
 		} )
-		private List<WebElement> searchCount;;
+		private List<WebElement> searchCount;
+	
+	//OR Initilization
 	
 	public SearchPage()
 	{

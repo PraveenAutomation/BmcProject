@@ -14,7 +14,7 @@ public class SearchPageTest extends TestBase {
 
 	SearchPage searchPage;
 	TestUtils testUtils;
-	LocationPage locationPage;
+	LandingPage landingPage;
 
 	public SearchPageTest() {
 		super();
@@ -25,7 +25,7 @@ public class SearchPageTest extends TestBase {
 		initilization();
 		searchPage = new SearchPage();
 		testUtils = new TestUtils();
-		locationPage = new LocationPage();
+		landingPage = new LandingPage();
 
 	}
 
@@ -48,14 +48,6 @@ public class SearchPageTest extends TestBase {
 		int searchCount = searchPage.searchListCount();
 		Assert.assertEquals(searchCount, searchPage.searchListCount());
 	}
-
-//	@Test
-//	public LocationPage verifyClickOnButton()
-//	{
-//		searchPage.clickOnSearchButton();
-//		return locationPage;
-//	}
-
 
 	  @AfterMethod 
 	  public void tearDown() 

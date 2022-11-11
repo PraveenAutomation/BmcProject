@@ -23,8 +23,7 @@ public class TestBase {
 	{
 		try {
 			prop = new Properties();
-			FileInputStream ip=new FileInputStream("C:\\Users\\dell\\eclipse-workspace\\ExlServicesTest\\src\\main\\java\\com\\exl\\qa\\config\\config.properties");
-			//FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "src/main/java/com/exl/qa/config/config.properties");
+			FileInputStream ip=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\bmc\\qa\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
